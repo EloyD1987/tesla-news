@@ -1,7 +1,13 @@
-.tittle{
-h1.tittle{ 
-         font-family:arial ;
-         color:blue ;
-    }
- 
+.text{
+    color: red;
+    background-color: sienna;
+
+}
+h1{
+    color: seagreen;
+
+}
+.list{
+    background-color: blue;   
+
 }

@@ -8,11 +8,18 @@
     src: url(fonts/Sans.woff2);
   
 }
+body{
+    background-color: red;
+}
 #container{
     background-color: rgb(255, 255, 255);
-    line-height: 1;
-    margin-left: 50px;
+    padding-left:50px;
+    padding-top: 2px;
+    padding-right: 124px;    
     width: 800px;
+    margin-top: 190px;
+    border-width: 0px;
+    
 }
 #datetime{
     color: #696969; 
@@ -25,7 +32,6 @@
     padding: 8px;
     text-decoration: none;
     white-space: nowrap;  
-
 }
 hr{
     margin-top: 32px;
@@ -44,12 +50,10 @@ a:hover#button{
 }
 h1{
     font-size: 44px;
-    line-height: 3rem;
+    line-height: 48px;
     font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
     font-weight: 500;
     color: #3F3F42;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
 }
 .text {
     margin-right: 220px;
@@ -58,11 +62,10 @@ h1{
     font-weight: 400;
     font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
-   
+    margin-inline-end: 0px; 
 }
 a{
     color:#696969;
@@ -71,10 +74,6 @@ a:hover{
     color: #b80000;
     background-color: none;
 }
-a:visited{
-    color: #b80000;
-}
-
 figcaption{
     background: #3F3F42;
     color: #EEEEEE;
@@ -93,14 +92,9 @@ a.list{
     text-decoration: none;
  }
 
-
-
-
-
 figure{
     margin:0px;
 }
-
 img{
    border: 0px;
    margin:0px;
@@ -114,4 +108,16 @@ iframe{
    width: 800px;
    padding: 0px;
 }
-
+#footer{
+    
+    font-size: 20px;
+    text-align: center;
+    border-style: bold;
+    border-color: black;
+    background-color: slateblue;
+    width: 970px;
+    padding: 30px 0px;
+}
+a#footer{
+    color: white;
+}

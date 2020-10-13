@@ -10,6 +10,8 @@
 }
 body{
     background-color: red;
+    padding: 0px;
+    margin: 0px;
 }
 #container{
     background-color: rgb(255, 255, 255);
@@ -19,6 +21,7 @@ body{
     width: 800px;
     margin-top: 190px;
     border-width: 0px;
+   
     
 }
 h1{

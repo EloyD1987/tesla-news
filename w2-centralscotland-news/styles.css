@@ -80,7 +80,7 @@ a:hover{
 figcaption{
     background: #3F3F42;
     color: #EEEEEE;
-    padding: 1rem;
+    padding: 16px;
     font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
 }
 .list{
@@ -124,16 +124,18 @@ iframe{
 a#footer{
     color: white;
 }
+a:hover#footer{
+    color: #b80000;
+    background-color: none;
+}
 #table{
-  
-    margin-left: 250px;
-    margin-right: 225px;
-    background-color: grey;
+    position: relative;
+    left: 250px;
+    background-color:rgb(255, 255, 255);
     font-size: 20px;
-    
     vertical-align: center;
-    color:blue;
-    
+    color: black; 
+    width: 250px;  
 }
 th{
     padding:10px;
@@ -141,6 +143,6 @@ th{
 }
 td{
     padding:10px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
        
